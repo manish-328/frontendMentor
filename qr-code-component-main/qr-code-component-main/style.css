@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: antiquewhite;
+
+}
+
+.card{
+  width: 330px;
+  background-color: white;
+  
+  padding: 15px;
+  border-radius: 12px;
+ 
+}
+
+.card img{
+  width: 300px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.first{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 140%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.second{
+ font-family: '[Outfit](https://fonts.google.com/specimen/Outfit)';
+  margin-bottom: 10px;
+  text-align: center;
+  margin-bottom: 25px;
+  color: rgb(134, 134, 134);
+}
+
+.para{
+  padding-left: 15px;
+  padding-right: 15px;
+}
